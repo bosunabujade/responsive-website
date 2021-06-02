@@ -274,6 +274,7 @@ footer p {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background-image: url(../img/hero.jpg);
 }
 
 /* Aside */
@@ -291,6 +292,7 @@ aside {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background-image: url(../img/feature.jpg);
 }
 
 .features h2 {
