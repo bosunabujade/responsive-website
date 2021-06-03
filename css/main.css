@@ -329,6 +329,10 @@ aside {
   margin: 0;
 }
 
+.features i {
+	font-size: 3.75em;
+        margin-bottom: 40px;
+}
 /* Reviews */
 
 .reviews {
@@ -633,8 +637,10 @@ aside {
  }
 
  .map figure {
-   padding-bottom: 56.25%;
- }
+    padding-bottom: 56.25%;
+
+  }
+
  .contact-section .content-wrapper h2 {
    width: 80%;
  }
