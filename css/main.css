@@ -131,11 +131,11 @@ textarea {
    }
 
    img {
-
+     width: 100%;
    }
 
    figure {
-
+     margin: 0;
    }
 
    address {
@@ -222,6 +222,14 @@ header nav ul {
   width: 100%;
 }
 
+header figure {
+  width: 60%;
+  display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-flow: row wrap;
+}
+
 .feature-article {
     width: 60%;
 }
@@ -275,6 +283,10 @@ footer p {
   justify-content: center;
   flex-flow: row wrap;
   background-image: url(../img/hero.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+
 }
 
 /* Aside */
@@ -293,6 +305,8 @@ aside {
   justify-content: center;
   flex-flow: row wrap;
   background-image: url(../img/feature.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 .features h2 {
@@ -517,6 +531,10 @@ aside {
  .header-divider {
    display: none;
  }
+
+ header figure {
+   width: 40%;
+ }
  /* Hero Area */
 
  /* Aside */
@@ -552,10 +570,19 @@ aside {
    justify-content: space-between;
  }
 
+ .reviews h2 {
+   width: 85%;
+ }
+
+ .reviews article figure,
  .reviews article div {
    width: 49%;
  }
 
+ .reviews h3 {
+   width: 75%;
+   margin: 0;
+ }
  /* Footer */
  footer .content-wrapper {
    width: 65%;
