@@ -325,7 +325,7 @@ aside {
   flex-flow: row wrap;
 }
 
-}
+
 .features h2 {
   margin-bottom: 60px;
 }
@@ -430,8 +430,8 @@ aside {
   flex-flow: row wrap;
 }
 
-.faq h2 {
-  margin-bottom: 40px;
+.faq h4 {
+  margin-bottom: 20px;
 }
 
 .faq-content {
@@ -622,19 +622,20 @@ aside {
  }
  /* Footer */
  footer .content-wrapper {
-   width: 65%;
+   width: 80%;
    margin: 100px 0;
 
  }
 
  footer .footer-content {
    display: flex;
-   justify-content: space-between;
+   justify-content: space-around;
    align-items: center;
    flex-direction: row nowrap;
+   width: 100%;
  }
 
- footer .contact,{
+ footer .contact {
    margin: 0;
  }
 
@@ -660,15 +661,21 @@ aside {
   About Page
   ========================================================================== */
 
- .mission-content {
+ .mission, .content-wrapper { 
    display: flex;
-   justify-content: space-between;
+   flex-wrap: wrap;
+   justify-content: space-around;
    align-items: center;
    padding-top: 20px
  }
 
- .mission-content p {
+ .mission h1 {
+   font-size: 3.25em;
+   width: 95%;
+ }
+ .mission p {
    width: 45%;
+   padding: 20px;
  }
 
  .map figure {
@@ -676,14 +683,22 @@ aside {
 
   }
 
- .contact-section .content-wrapper h2 {
-   width: 80%;
+
+ .contact-section {
+   display: flex;
+   justify-content: space-around;
+   align-items: flex-start;
+   }
+  .contact-section h1 {
+    width: 100%;
+    font-size: 3.25em;
+  }
+ .general, .chat {
+   width: 50%;
  }
 
- .contact-content {
-   display: flex;
-   justify-content: space-between;
-   align-items: flex-start;
+ h3 {
+   font-size: 1.75em;
  }
 
  /* ==========================================================================
@@ -698,7 +713,7 @@ aside {
    flex-basis: 45%;
  }
 
- .faq h2 {
+ .faq h1 {
    width: 100%;
  }
 }
@@ -707,7 +722,7 @@ aside {
 @media only screen and (min-width: 1200px) {
 /*Desktop styles here*/
 .content-wrapper {
-  max-width: 960px;
+  max-width: 1020px;
 }
 
 /* Hero */
@@ -744,15 +759,12 @@ aside .content-wrapper .form {
 About Page
 ========================================================================== */
 
-.mission h2,
-.contact-section .content-wrapper h2 {
-    width: 95%;
-}
+
 
 /* ==========================================================================
 FAQ Page
 ========================================================================== */
-.faq h2 {
+.faq h1 {
   width: 100%;
 }
 
